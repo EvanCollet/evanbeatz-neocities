@@ -3,30 +3,67 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of evanbeatz</title>
+    <title>Evan Beatz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <h1>Welcome to my Website!</h1>
-
-    <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
-
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
-
-    <p>Here's how you can add an image:</p>
-    <img src="/neocities.png" alt="Site hosted by Neocities">
-
-    <p>Here's how to make a list:</p>
-
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-    </ul>
-
-    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+    <div id="main-div">
+      <div class="page-layout">
+        <nav id="navigation-div" aria-label="Main navigation">
+          <h2>MENU</h2>
+          <a href="#home">Home</a>
+          <a href="#music">Music</a>
+          <a href="#videogames">Games</a>
+          <a href="#about">About</a>
+        </nav>
+        <div class="page-content">
+          <header id="header-div">
+            <h1 id="home">E-e-e-e Evan Beatzzz</h1>
+          </header>
+          <main id="content-div">
+            <p id="about">Welcome to my world! I'm Evan Beatz, a french guy who loves music and coding. I discovered Neocities recently and decided to create my own website.</p>
+            <p>Feel free to explore the different sections of the site using the navigation menu.</p>
+          </main>
+          <div id="music">
+            <h2>Music</h2>
+            <p>I've always loved music and I produce tracks in my spare time since 2020.</p>
+            <h3>Genres :</h3>
+            <ul>
+              <li>EDM</li>
+              <ul>
+                <li>Bass House</li>
+                <li>Dubstep (Brostep for purists ig)</li>
+                <li>Techno</li>
+              </ul>
+              <li>Rap</li>
+              <ul>
+                <li>Drill</li>
+                <li>Trap</li>
+              </ul>
+            </ul>
+          </div>
+          <div id="videogames">
+            <h2>Games</h2>
+            <p>I'm also a passionate gamer and I enjoy playing a variety of video games.</p>
+            <h3>Favorite Games :</h3>
+            <ul>
+              <li>Minecraft</li>
+              <li>Valorant</li>
+              <li>Fortnite</li>
+              <li>Any Mario or Zelda games lol</li>
+            </ul>
+          </div>
+          <footer id="footer-div">
+            <p>&copy; 2026 evanbeatz. All rights reserved.</p>
+          </footer>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
